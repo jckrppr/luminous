@@ -731,9 +731,7 @@ fn register_media_shortcuts(app: &tauri::App) {
         "MediaPlayPause",
         "MediaTrackNext",
         "MediaTrackPrevious",
-        "AudioVolumeUp",
-        "AudioVolumeDown",
-        "AudioVolumeMute",
+
     ];
     for shortcut_str in media_shortcuts {
         if let Err(err) = app
